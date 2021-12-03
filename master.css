@@ -216,10 +216,12 @@ td:first-child, td:not([class]) {
     filter:none !important;
 }
 
+.swatch.syntax-feature,
 td:first-child {
     background-color: rgb(161, 198, 212);
 }
 
+.swatch.library-feature,
 tr.feature-category-built-ins td:first-child,
 tr.feature-category-built-in-extensions td:first-child {
     background-color: rgb(216, 187, 224);
