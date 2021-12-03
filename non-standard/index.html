@@ -116,9 +116,7 @@
             <th></th>
 
             <!-- TABLE HEADERS -->
-          <th class="platform konq4_13 desktop obsolete" data-browser="konq4_13"><a href="#konq4_13" class="browser-name"><abbr title="Konqueror 4.13">Konq 4.13</abbr></a></th>
-<th class="platform konq4_14 desktop" data-browser="konq4_14"><a href="#konq4_14" class="browser-name"><abbr title="Konqueror 4.14">Konq 4.14</abbr></a><a href="#khtml-note"><sup>[4]</sup></a></th>
-<th class="platform ie8 desktop obsolete" data-browser="ie8"><a href="#ie8" class="browser-name"><abbr title="Internet Explorer 8">IE 8</abbr></a></th>
+          <th class="platform ie8 desktop obsolete" data-browser="ie8"><a href="#ie8" class="browser-name"><abbr title="Internet Explorer 8">IE 8</abbr></a></th>
 <th class="platform ie9 desktop obsolete" data-browser="ie9"><a href="#ie9" class="browser-name"><abbr title="Internet Explorer 9">IE 9</abbr></a></th>
 <th class="platform ie10 desktop obsolete" data-browser="ie10"><a href="#ie10" class="browser-name"><abbr title="Internet Explorer 10">IE 10</abbr></a></th>
 <th class="platform ie11 desktop obsolete" data-browser="ie11"><a href="#ie11" class="browser-name"><abbr title="Internet Explorer 11">IE 11</abbr></a></th>
@@ -214,8 +212,6 @@
         <tbody>
           <!-- TABLE BODY -->
         <tr class="supertest feature-category-" significance="1"><td id="test-SIMD_(Single_Instruction,_Multiple_Data)"><span><a class="anchor" href="#test-SIMD_(Single_Instruction,_Multiple_Data)">&#xA7;</a><a href="https://tc39.github.io/ecmascript_simd/">SIMD (Single Instruction, Multiple Data)</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SIMD" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span></td>
-<td class="tally obsolete" data-browser="konq4_13" data-tally="0">0/57</td>
-<td class="tally" data-browser="konq4_14" data-tally="0">0/57</td>
 <td class="tally obsolete" data-browser="ie8" data-tally="0">0/57</td>
 <td class="tally obsolete" data-browser="ie9" data-tally="0">0/57</td>
 <td class="tally obsolete" data-browser="ie10" data-tally="0">0/57</td>
@@ -319,8 +315,6 @@ simdAllTypes=simdFloatTypes.concat(simdIntTypes,simdBoolTypes);
 return typeof SIMD !== &apos;undefined&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("1");try{return Function("asyncTestPassed","\nsimdFloatTypes=['Float32x4'];\nsimdBoolTypes=['Bool32x4','Bool16x8','Bool8x16'];\nsimdIntTypes=['Int32x4','Int16x8','Int8x16','Uint32x4','Uint16x8','Uint8x16'];\nsimd32bitFloatIntTypes=['Float32x4','Int32x4','Uint32x4'];\nsimdSmallIntTypes=['Int16x8','Int8x16','Uint16x8','Uint8x16'];\nsimdBoolIntTypes=simdBoolTypes.concat(simdIntTypes);\nsimdFloatIntTypes=simdFloatTypes.concat(simdIntTypes);\nsimdAllTypes=simdFloatTypes.concat(simdIntTypes,simdBoolTypes);\nreturn typeof SIMD !== 'undefined';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("1");return Function("asyncTestPassed","'use strict';"+"\nsimdFloatTypes=['Float32x4'];\nsimdBoolTypes=['Bool32x4','Bool16x8','Bool8x16'];\nsimdIntTypes=['Int32x4','Int16x8','Int8x16','Uint32x4','Uint16x8','Uint8x16'];\nsimd32bitFloatIntTypes=['Float32x4','Int32x4','Uint32x4'];\nsimdSmallIntTypes=['Int16x8','Int8x16','Uint16x8','Uint8x16'];\nsimdBoolIntTypes=simdBoolTypes.concat(simdIntTypes);\nsimdFloatIntTypes=simdFloatTypes.concat(simdIntTypes);\nsimdAllTypes=simdFloatTypes.concat(simdIntTypes,simdBoolTypes);\nreturn typeof SIMD !== 'undefined';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -416,8 +410,6 @@ return typeof SIMD !== &apos;undefined&apos;;
 return typeof SIMD.Float32x4 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("2");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Float32x4 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("2");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Float32x4 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -513,8 +505,6 @@ return typeof SIMD.Float32x4 === &apos;function&apos;;
 return typeof SIMD.Int32x4 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("3");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Int32x4 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("3");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Int32x4 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -610,8 +600,6 @@ return typeof SIMD.Int32x4 === &apos;function&apos;;
 return typeof SIMD.Int16x8 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("4");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Int16x8 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("4");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Int16x8 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -707,8 +695,6 @@ return typeof SIMD.Int16x8 === &apos;function&apos;;
 return typeof SIMD.Int8x16 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("5");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Int8x16 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("5");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Int8x16 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -804,8 +790,6 @@ return typeof SIMD.Int8x16 === &apos;function&apos;;
 return typeof SIMD.Uint32x4 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("6");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Uint32x4 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("6");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Uint32x4 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -901,8 +885,6 @@ return typeof SIMD.Uint32x4 === &apos;function&apos;;
 return typeof SIMD.Uint16x8 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("7");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Uint16x8 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("7");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Uint16x8 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -998,8 +980,6 @@ return typeof SIMD.Uint16x8 === &apos;function&apos;;
 return typeof SIMD.Uint8x16 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("8");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Uint8x16 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("8");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Uint8x16 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1095,8 +1075,6 @@ return typeof SIMD.Uint8x16 === &apos;function&apos;;
 return typeof SIMD.Bool32x4 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("9");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Bool32x4 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("9");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Bool32x4 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1192,8 +1170,6 @@ return typeof SIMD.Bool32x4 === &apos;function&apos;;
 return typeof SIMD.Bool16x8 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("10");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Bool16x8 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("10");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Bool16x8 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1289,8 +1265,6 @@ return typeof SIMD.Bool16x8 === &apos;function&apos;;
 return typeof SIMD.Bool8x16 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("11");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Bool8x16 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("11");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Bool8x16 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1388,8 +1362,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("12");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].abs === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("12");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].abs === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1487,8 +1459,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("13");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].add === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("13");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].add === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1586,8 +1556,6 @@ return simdSmallIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("14");try{return Function("asyncTestPassed","\nreturn simdSmallIntTypes.every(function(type){\n  return typeof SIMD[type].addSaturate === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("14");return Function("asyncTestPassed","'use strict';"+"\nreturn simdSmallIntTypes.every(function(type){\n  return typeof SIMD[type].addSaturate === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1685,8 +1653,6 @@ return simdBoolIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("15");try{return Function("asyncTestPassed","\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].and === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("15");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].and === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1784,8 +1750,6 @@ return simdBoolTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("16");try{return Function("asyncTestPassed","\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].anyTrue === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("16");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].anyTrue === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1883,8 +1847,6 @@ return simdBoolTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("17");try{return Function("asyncTestPassed","\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].allTrue === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("17");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].allTrue === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -1982,8 +1944,6 @@ return simdAllTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("18");try{return Function("asyncTestPassed","\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].check === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("18");return Function("asyncTestPassed","'use strict';"+"\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].check === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2081,8 +2041,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("19");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].equal === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("19");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].equal === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2180,8 +2138,6 @@ return simdAllTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("20");try{return Function("asyncTestPassed","\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].extractLane === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("20");return Function("asyncTestPassed","'use strict';"+"\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].extractLane === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2279,8 +2235,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("21");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].greaterThan === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("21");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].greaterThan === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2378,8 +2332,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("22");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].greaterThanOrEqual === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("22");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].greaterThanOrEqual === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2477,8 +2429,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("23");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].lessThan === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("23");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].lessThan === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2576,8 +2526,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("24");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].lessThanOrEqual === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("24");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].lessThanOrEqual === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2675,8 +2623,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("25");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].mul === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("25");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].mul === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2774,8 +2720,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("26");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].div === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("26");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].div === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2873,8 +2817,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("27");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("27");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -2972,8 +2914,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("28");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load1 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("28");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load1 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3071,8 +3011,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("29");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load2 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("29");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load2 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3170,8 +3108,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("30");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load3 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("30");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].load3 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3269,8 +3205,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("31");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].max === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("31");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].max === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3368,8 +3302,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("32");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].maxNum === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("32");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].maxNum === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3467,8 +3399,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("33");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].min === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("33");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].min === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3566,8 +3496,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("34");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].minNum === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("34");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].minNum === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3665,8 +3593,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("35");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].neg === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("35");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].neg === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3764,8 +3690,6 @@ return simdBoolTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("36");try{return Function("asyncTestPassed","\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].not === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("36");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolTypes.every(function(type){\n  return typeof SIMD[type].not === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3863,8 +3787,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("37");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].notEqual === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("37");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].notEqual === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -3962,8 +3884,6 @@ return simdBoolIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("38");try{return Function("asyncTestPassed","\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].or === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("38");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].or === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4061,8 +3981,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("39");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].reciprocalApproximation === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("39");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].reciprocalApproximation === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4160,8 +4078,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("40");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].reciprocalSqrtApproximation === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("40");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].reciprocalSqrtApproximation === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4259,8 +4175,6 @@ return simdAllTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("41");try{return Function("asyncTestPassed","\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].replaceLane === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("41");return Function("asyncTestPassed","'use strict';"+"\nreturn simdAllTypes.every(function(type){\n  return typeof SIMD[type].replaceLane === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4358,8 +4272,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("42");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].select === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("42");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].select === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4457,8 +4369,6 @@ return simdIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("43");try{return Function("asyncTestPassed","\nreturn simdIntTypes.every(function(type){\n  return typeof SIMD[type].shiftLeftByScalar === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("43");return Function("asyncTestPassed","'use strict';"+"\nreturn simdIntTypes.every(function(type){\n  return typeof SIMD[type].shiftLeftByScalar === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4556,8 +4466,6 @@ return simdIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("44");try{return Function("asyncTestPassed","\nreturn simdIntTypes.every(function(type){\n  return typeof SIMD[type].shiftRightByScalar === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("44");return Function("asyncTestPassed","'use strict';"+"\nreturn simdIntTypes.every(function(type){\n  return typeof SIMD[type].shiftRightByScalar === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4655,8 +4563,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("45");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].shuffle === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("45");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].shuffle === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4754,8 +4660,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("46");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].splat === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("46");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].splat === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4853,8 +4757,6 @@ return simdFloatTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("47");try{return Function("asyncTestPassed","\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].sqrt === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("47");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatTypes.every(function(type){\n  return typeof SIMD[type].sqrt === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -4952,8 +4854,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("48");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("48");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5051,8 +4951,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("49");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store1 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("49");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store1 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5150,8 +5048,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("50");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store2 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("50");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store2 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5249,8 +5145,6 @@ return simd32bitFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("51");try{return Function("asyncTestPassed","\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store3 === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("51");return Function("asyncTestPassed","'use strict';"+"\nreturn simd32bitFloatIntTypes.every(function(type){\n  return typeof SIMD[type].store3 === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5348,8 +5242,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("52");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].sub === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("52");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].sub === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5447,8 +5339,6 @@ return simdSmallIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("53");try{return Function("asyncTestPassed","\nreturn simdSmallIntTypes.every(function(type){\n  return typeof SIMD[type].subSaturate === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("53");return Function("asyncTestPassed","'use strict';"+"\nreturn simdSmallIntTypes.every(function(type){\n  return typeof SIMD[type].subSaturate === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5546,8 +5436,6 @@ return simdFloatIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("54");try{return Function("asyncTestPassed","\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].swizzle === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("54");return Function("asyncTestPassed","'use strict';"+"\nreturn simdFloatIntTypes.every(function(type){\n  return typeof SIMD[type].swizzle === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5645,8 +5533,6 @@ return simdBoolIntTypes.every(function(type){
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("55");try{return Function("asyncTestPassed","\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].xor === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("55");return Function("asyncTestPassed","'use strict';"+"\nreturn simdBoolIntTypes.every(function(type){\n  return typeof SIMD[type].xor === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5744,8 +5630,6 @@ return [&apos;Float32x4&apos;,&apos;Int32x4&apos;,&apos;Int8x16&apos;,&apos;Uint
 });
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("56");try{return Function("asyncTestPassed","\nreturn ['Float32x4','Int32x4','Int8x16','Uint32x4','Uint16x8','Uint8x16'].every(function(type){\n  return typeof SIMD.Int16x8['from' + type + 'Bits'] === 'function';\n});\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("56");return Function("asyncTestPassed","'use strict';"+"\nreturn ['Float32x4','Int32x4','Int8x16','Uint32x4','Uint16x8','Uint8x16'].every(function(type){\n  return typeof SIMD.Int16x8['from' + type + 'Bits'] === 'function';\n});\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5841,8 +5725,6 @@ return [&apos;Float32x4&apos;,&apos;Int32x4&apos;,&apos;Int8x16&apos;,&apos;Uint
 return typeof SIMD.Float32x4.fromInt32x4 === &apos;function&apos; &amp;&amp; typeof SIMD.Float32x4.fromUint32x4 === &apos;function&apos; &amp;&amp; typeof SIMD.Int32x4.fromFloat32x4 === &apos;function&apos; &amp;&amp; typeof SIMD.Uint32x4.fromFloat32x4 === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("57");try{return Function("asyncTestPassed","\nreturn typeof SIMD.Float32x4.fromInt32x4 === 'function' && typeof SIMD.Float32x4.fromUint32x4 === 'function' && typeof SIMD.Int32x4.fromFloat32x4 === 'function' && typeof SIMD.Uint32x4.fromFloat32x4 === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("57");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof SIMD.Float32x4.fromInt32x4 === 'function' && typeof SIMD.Float32x4.fromUint32x4 === 'function' && typeof SIMD.Int32x4.fromFloat32x4 === 'function' && typeof SIMD.Uint32x4.fromFloat32x4 === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -5934,11 +5816,9 @@ return typeof SIMD.Float32x4.fromInt32x4 === &apos;function&apos; &amp;&amp; typ
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="supertest feature-category-" significance="1"><td id="test-decompilation"><span><a class="anchor" href="#test-decompilation">&#xA7;</a>decompilation</span></td>
-<td class="tally obsolete" data-browser="konq4_13" data-tally="0">0/4</td>
-<td class="tally" data-browser="konq4_14" data-tally="0">0/4</td>
 <td class="tally obsolete" data-browser="ie8" data-tally="0">0/4</td>
 <td class="tally obsolete" data-browser="ie9" data-tally="0">0/4</td>
 <td class="tally obsolete" data-browser="ie10" data-tally="0">0/4</td>
@@ -6034,8 +5914,6 @@ return typeof SIMD.Float32x4.fromInt32x4 === &apos;function&apos; &amp;&amp; typ
 return typeof uneval === &apos;function&apos;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("59");try{return Function("asyncTestPassed","\nreturn typeof uneval === 'function';\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("59");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof uneval === 'function';\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -6139,8 +6017,6 @@ return &apos;toSource&apos; in Object.prototype
     &amp;&amp; Error    .prototype.hasOwnProperty(&apos;toSource&apos;);
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("60");try{return Function("asyncTestPassed","\nreturn 'toSource' in Object.prototype\n    && Number   .prototype.hasOwnProperty('toSource')\n    && Boolean  .prototype.hasOwnProperty('toSource')\n    && String   .prototype.hasOwnProperty('toSource')\n    && Function .prototype.hasOwnProperty('toSource')\n    && Array    .prototype.hasOwnProperty('toSource')\n    && RegExp   .prototype.hasOwnProperty('toSource')\n    && Date     .prototype.hasOwnProperty('toSource')\n    && Error    .prototype.hasOwnProperty('toSource');\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("60");return Function("asyncTestPassed","'use strict';"+"\nreturn 'toSource' in Object.prototype\n    && Number   .prototype.hasOwnProperty('toSource')\n    && Boolean  .prototype.hasOwnProperty('toSource')\n    && String   .prototype.hasOwnProperty('toSource')\n    && Function .prototype.hasOwnProperty('toSource')\n    && Array    .prototype.hasOwnProperty('toSource')\n    && RegExp   .prototype.hasOwnProperty('toSource')\n    && Date     .prototype.hasOwnProperty('toSource')\n    && Error    .prototype.hasOwnProperty('toSource');\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -6236,8 +6112,6 @@ return &apos;toSource&apos; in Object.prototype
 return uneval({ toSource: function() { return &quot;pwnd!&quot; } }) === &quot;pwnd!&quot;;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("61");try{return Function("asyncTestPassed","\nreturn uneval({ toSource: function() { return \"pwnd!\" } }) === \"pwnd!\";\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("61");return Function("asyncTestPassed","'use strict';"+"\nreturn uneval({ toSource: function() { return \"pwnd!\" } }) === \"pwnd!\";\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -6419,8 +6293,6 @@ for (var k in sample) {
 return true;
       ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("62");try{return Function("asyncTestPassed","\n\nfunction isEquivalent(x, y) {\n    if (x == null || y == null)\n        return x === y;\n\n    if (typeof x !== typeof y)\n        return false;\n\n    switch (typeof x) {\n    case 'number':\n        return x === y && 1/x === 1/y || isNaN(x) && isNaN(y)\n    case 'boolean':\n    case 'string':\n    case 'symbol':\n        return x === y;\n    }\n\n    if ({}.toString.call(x) !== {}.toString.call(y))\n        return false;\n\n    switch ({}.toString.call(x)) {\n\n    case '[object Boolean]':\n    case '[object Number]':\n    case '[object String]':\n    case '[object Date]':\n        return x.valueOf() === y.valueOf();\n\n    case '[object Function]':\n    case '[object RegExp]':\n    case '[object Error]':\n        return x.toString() === y.toString();\n\n    case '[object Array]':\n        if (x.length !== y.length)\n            return false;\n        for (var i = 0; i < x.length; i++) {\n            if (!isEquivalent(x[i], y[i]))\n                return false;\n        }\n        return true;\n\n    default:\n        for (var i in x) {\n            if ({}.hasOwnProperty.call(x, i)) {\n                if (!{}.hasOwnProperty.call(y, i) || !isEquivalent(x[i], y[i]))\n                    return false;\n            }\n        }\n        for (var i in y) {\n            if ({}.hasOwnProperty.call(y, i) && !{}.hasOwnProperty.call(x, i))\n                return false;\n        }\n        return true;\n    }\n}\n\n\nvar sample = [\n    undefined,\n    null,\n    false,\n    1,\n    NaN,\n    -0,\n    \"foo\",\n    typeof Symbol !== \"undefined\" && Symbol.iterator,\n    typeof Symbol !== \"undefined\" && Symbol.for && Symbol.for('bingo'),\n    Object(true),\n    Object(3),\n    Object(\"x\"),\n    function x(y) { return 42 + y; },\n    new Date(1234567890123),\n    new Error(\"message\"),\n    new EvalError(\"WTF\"),\n    /rx/gim,\n    [ 3, undefined, \"%&@\", null, function() {} ],\n    { foo: \"x\", bar: [ 42, new Date ] }\n];\n\nfor (var k in sample) {\n    if (!isEquivalent(sample[k], eval(uneval(sample[k])))) {\n        return false;\n    }\n}\n\nreturn true;\n      ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("62");return Function("asyncTestPassed","'use strict';"+"\n\nfunction isEquivalent(x, y) {\n    if (x == null || y == null)\n        return x === y;\n\n    if (typeof x !== typeof y)\n        return false;\n\n    switch (typeof x) {\n    case 'number':\n        return x === y && 1/x === 1/y || isNaN(x) && isNaN(y)\n    case 'boolean':\n    case 'string':\n    case 'symbol':\n        return x === y;\n    }\n\n    if ({}.toString.call(x) !== {}.toString.call(y))\n        return false;\n\n    switch ({}.toString.call(x)) {\n\n    case '[object Boolean]':\n    case '[object Number]':\n    case '[object String]':\n    case '[object Date]':\n        return x.valueOf() === y.valueOf();\n\n    case '[object Function]':\n    case '[object RegExp]':\n    case '[object Error]':\n        return x.toString() === y.toString();\n\n    case '[object Array]':\n        if (x.length !== y.length)\n            return false;\n        for (var i = 0; i < x.length; i++) {\n            if (!isEquivalent(x[i], y[i]))\n                return false;\n        }\n        return true;\n\n    default:\n        for (var i in x) {\n            if ({}.hasOwnProperty.call(x, i)) {\n                if (!{}.hasOwnProperty.call(y, i) || !isEquivalent(x[i], y[i]))\n                    return false;\n            }\n        }\n        for (var i in y) {\n            if ({}.hasOwnProperty.call(y, i) && !{}.hasOwnProperty.call(x, i))\n                return false;\n        }\n        return true;\n    }\n}\n\n\nvar sample = [\n    undefined,\n    null,\n    false,\n    1,\n    NaN,\n    -0,\n    \"foo\",\n    typeof Symbol !== \"undefined\" && Symbol.iterator,\n    typeof Symbol !== \"undefined\" && Symbol.for && Symbol.for('bingo'),\n    Object(true),\n    Object(3),\n    Object(\"x\"),\n    function x(y) { return 42 + y; },\n    new Date(1234567890123),\n    new Error(\"message\"),\n    new EvalError(\"WTF\"),\n    /rx/gim,\n    [ 3, undefined, \"%&@\", null, function() {} ],\n    { foo: \"x\", bar: [ 42, new Date ] }\n];\n\nfor (var k in sample) {\n    if (!isEquivalent(sample[k], eval(uneval(sample[k])))) {\n        return false;\n    }\n}\n\nreturn true;\n      ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -6517,8 +6389,6 @@ var x = 1;
 return eval(&quot;x&quot;, { x: 2 }) === 2;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("63");try{return Function("asyncTestPassed","\nvar x = 1;\nreturn eval(\"x\", { x: 2 }) === 2;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("63");return Function("asyncTestPassed","'use strict';"+"\nvar x = 1;\nreturn eval(\"x\", { x: 2 }) === 2;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -6610,7 +6480,7 @@ return eval(&quot;x&quot;, { x: 2 }) === 2;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-function_caller_property"><span><a class="anchor" href="#test-function_caller_property">&#xA7;</a>function &quot;caller&quot; property <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () {
 return &apos;caller&apos; in function(){};
@@ -6618,8 +6488,6 @@ return &apos;caller&apos; in function(){};
 function () {
 return 'caller' in function(){};
   }())</script></td>
-<td class="yes obsolete" data-browser="konq4_13">Yes</td>
-<td class="yes" data-browser="konq4_14">Yes</td>
 <td class="yes obsolete" data-browser="ie8">Yes</td>
 <td class="yes obsolete" data-browser="ie9">Yes</td>
 <td class="yes obsolete" data-browser="ie10">Yes</td>
@@ -6721,8 +6589,6 @@ return (function () {}).arity === 0 &&
   (function (x) { return x; }).arity === 1 &&
   (function (x, y) { return y; }).arity === 2;
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -6826,8 +6692,6 @@ function f(a, b) {
 }
 return f(1, 'boo');
   }())</script></td>
-<td class="yes obsolete" data-browser="konq4_13">Yes</td>
-<td class="yes" data-browser="konq4_14">Yes</td>
 <td class="yes obsolete" data-browser="ie8">Yes</td>
 <td class="yes obsolete" data-browser="ie9">Yes</td>
 <td class="yes obsolete" data-browser="ie10">Yes</td>
@@ -6925,8 +6789,6 @@ return typeof Function.prototype.isGenerator === &apos;function&apos;;
 function () {
 return typeof Function.prototype.isGenerator === 'function';
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7018,15 +6880,13 @@ return typeof Function.prototype.isGenerator === 'function';
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-class_extends_null"><span><a class="anchor" href="#test-class_extends_null">&#xA7;</a><a href="https://github.com/tc39/ecma262/issues/543">class extends null</a></span><script data-source="
 class C extends null {}
 return new C instanceof C;
 ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("68");try{return Function("asyncTestPassed","\nclass C extends null {}\nreturn new C instanceof C;\n")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("68");return Function("asyncTestPassed","'use strict';"+"\nclass C extends null {}\nreturn new C instanceof C;\n")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -7126,8 +6986,6 @@ function () {
 return typeof ({}).__count__ === 'number' &&
   ({ x: 1, y: 2 }).__count__ === 2;
 }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7225,8 +7083,6 @@ return typeof ({}).__parent__ !== &apos;undefined&apos;;
 function () {
 return typeof ({}).__parent__ !== 'undefined';
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7334,8 +7190,6 @@ try {
 } catch (e) { }
 return executed;
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7433,8 +7287,6 @@ return typeof Array.slice === &apos;function&apos; &amp;&amp; Array.slice(&apos;
 function () {
 return typeof Array.slice === 'function' && Array.slice('abc').length === 3;
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7532,8 +7384,6 @@ return typeof String.slice === &apos;function&apos; &amp;&amp; String.slice(123,
 function () {
 return typeof String.slice === 'function' && String.slice(123, 1) === "23";
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7625,7 +7475,7 @@ return typeof String.slice === 'function' && String.slice(123, 1) === "23";
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Array_comprehensions_(JS_1.8_style)"><span><a class="anchor" href="#test-Array_comprehensions_(JS_1.8_style)">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Array_comprehensions">Array comprehensions (JS 1.8 style)</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Array_comprehensions#Differences_to_the_older_JS1.7JS1.8_comprehensions" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="
 var obj = { 2: true, &quot;foo&quot;: true, 4: true };
@@ -7633,8 +7483,6 @@ var a = [i * 2 for (i in obj) if (i !== &quot;foo&quot;)];
 return a instanceof Array &amp;&amp; a[0] === 4 &amp;&amp; a[1] === 8;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("74");try{return Function("asyncTestPassed","\nvar obj = { 2: true, \"foo\": true, 4: true };\nvar a = [i * 2 for (i in obj) if (i !== \"foo\")];\nreturn a instanceof Array && a[0] === 4 && a[1] === 8;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("74");return Function("asyncTestPassed","'use strict';"+"\nvar obj = { 2: true, \"foo\": true, 4: true };\nvar a = [i * 2 for (i in obj) if (i !== \"foo\")];\nreturn a instanceof Array && a[0] === 4 && a[1] === 8;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7730,8 +7578,6 @@ return a instanceof Array &amp;&amp; a[0] === 4 &amp;&amp; a[1] === 8;
 return [for (a of [1, 2, 3]) a * a] + &apos;&apos; === &apos;1,4,9&apos;;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("75");try{return Function("asyncTestPassed","\nreturn [for (a of [1, 2, 3]) a * a] + '' === '1,4,9';\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("75");return Function("asyncTestPassed","'use strict';"+"\nreturn [for (a of [1, 2, 3]) a * a] + '' === '1,4,9';\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -7827,8 +7673,6 @@ return [for (a of [1, 2, 3]) a * a] + &apos;&apos; === &apos;1,4,9&apos;;
 return (function(x)x)(1) === 1;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("76");try{return Function("asyncTestPassed","\nreturn (function(x)x)(1) === 1;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("76");return Function("asyncTestPassed","'use strict';"+"\nreturn (function(x)x)(1) === 1;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -7924,8 +7768,6 @@ return (function(x)x)(1) === 1;
 return typeof &lt;foo/&gt; === &quot;xml&quot;;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("77");try{return Function("asyncTestPassed","\nreturn typeof <foo/> === \"xml\";\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("77");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof <foo/> === \"xml\";\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8025,8 +7867,6 @@ for each (var item in {a: &quot;foo&quot;, b: &quot;bar&quot;, c: &quot;baz&quot
 return str === &quot;foobarbaz&quot;;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("78");try{return Function("asyncTestPassed","\nvar str = '';\nfor each (var item in {a: \"foo\", b: \"bar\", c: \"baz\"}) {\n  str += item;\n}\nreturn str === \"foobarbaz\";\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("78");return Function("asyncTestPassed","'use strict';"+"\nvar str = '';\nfor each (var item in {a: \"foo\", b: \"bar\", c: \"baz\"}) {\n  str += item;\n}\nreturn str === \"foobarbaz\";\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8123,8 +7963,6 @@ var arr = #1=[1, #1#, 3];
 return arr[1] === arr;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("79");try{return Function("asyncTestPassed","\nvar arr = #1=[1, #1#, 3];\nreturn arr[1] === arr;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("79");return Function("asyncTestPassed","'use strict';"+"\nvar arr = #1=[1, #1#, 3];\nreturn arr[1] === arr;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8216,7 +8054,7 @@ return arr[1] === arr;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Iterator"><span><a class="anchor" href="#test-Iterator">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators">Iterator</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () {
 /* global Iterator */
@@ -8254,8 +8092,6 @@ catch(e) {
   return false;
 }
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8391,8 +8227,6 @@ catch(e) {
   return false;
 }
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8527,8 +8361,6 @@ global.test((function () {
   }
 }()));
         }</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8626,8 +8458,6 @@ var g = (i * 2 for (i in obj) if (i !== &quot;foo&quot;));
 return g.next() === 4 &amp;&amp; g.next() === 8;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("83");try{return Function("asyncTestPassed","\nvar obj = { 2: true, \"foo\": true, 4: true };\nvar g = (i * 2 for (i in obj) if (i !== \"foo\"));\nreturn g.next() === 4 && g.next() === 8;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("83");return Function("asyncTestPassed","'use strict';"+"\nvar obj = { 2: true, \"foo\": true, 4: true };\nvar g = (i * 2 for (i in obj) if (i !== \"foo\"));\nreturn g.next() === 4 && g.next() === 8;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8730,8 +8560,6 @@ passed &amp;= item.value === void undefined &amp;&amp; item.done === true;
 return passed;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("84");try{return Function("asyncTestPassed","\nvar iterator = (for (a of [1,2]) a + 4);\nvar item = iterator.next();\nvar passed = item.value === 5 && item.done === false;\nitem = iterator.next();\npassed &= item.value === 6 && item.done === false;\nitem = iterator.next();\npassed &= item.value === void undefined && item.done === true;\nreturn passed;\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("84");return Function("asyncTestPassed","'use strict';"+"\nvar iterator = (for (a of [1,2]) a + 4);\nvar item = iterator.next();\nvar passed = item.value === 5 && item.done === false;\nitem = iterator.next();\npassed &= item.value === 6 && item.done === false;\nitem = iterator.next();\npassed &= item.value === void undefined && item.done === true;\nreturn passed;\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -8823,7 +8651,7 @@ return passed;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-RegExp_x_flag"><span><a class="anchor" href="#test-RegExp_x_flag">&#xA7;</a>RegExp &quot;x&quot; flag</span><script data-source="function () {
 try {
@@ -8845,8 +8673,6 @@ try {
   return false;
 }
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -8942,8 +8768,6 @@ try {
 return /\\w/(&quot;x&quot;)[0] === &quot;x&quot;;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("86");try{return Function("asyncTestPassed","\nreturn /\\\\w/(\"x\")[0] === \"x\";\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("86");return Function("asyncTestPassed","'use strict';"+"\nreturn /\\\\w/(\"x\")[0] === \"x\";\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9040,8 +8864,6 @@ return /(?P&lt;name&gt;a)(?P=name)/.test(&quot;aa&quot;) &amp;&amp;
        !/(?P&lt;name&gt;a)(?P=name)/.test(&quot;&quot;)
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("87");try{return Function("asyncTestPassed","\nreturn /(?P<name>a)(?P=name)/.test(\"aa\") &&\n       !/(?P<name>a)(?P=name)/.test(\"\")\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("87");return Function("asyncTestPassed","'use strict';"+"\nreturn /(?P<name>a)(?P=name)/.test(\"aa\") &&\n       !/(?P<name>a)(?P=name)/.test(\"\")\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="yes obsolete" data-browser="konq4_13">Yes</td>
-<td class="yes" data-browser="konq4_14">Yes</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9133,12 +8955,10 @@ return /(?P&lt;name&gt;a)(?P=name)/.test(&quot;aa&quot;) &amp;&amp;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-String.prototype.quote"><span><a class="anchor" href="#test-String.prototype.quote">&#xA7;</a>String.prototype.quote <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/quote" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return typeof String.prototype.quote === &apos;function&apos; }">test(
 function () { return typeof String.prototype.quote === 'function' }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9232,8 +9052,6 @@ function () { return typeof String.prototype.quote === 'function' }())</script><
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-String.prototype.replace_flags"><span><a class="anchor" href="#test-String.prototype.replace_flags">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">String.prototype.replace flags</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Firefox-specific_notes" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return &apos;foofoo&apos;.replace(&apos;foo&apos;, &apos;bar&apos;, &apos;g&apos;) === &apos;barbar&apos; }">test(
 function () { return 'foofoo'.replace('foo', 'bar', 'g') === 'barbar' }())</script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -9325,12 +9143,10 @@ function () { return 'foofoo'.replace('foo', 'bar', 'g') === 'barbar' }())</scri
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Date.prototype.toLocaleFormat"><span><a class="anchor" href="#test-Date.prototype.toLocaleFormat">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat">Date.prototype.toLocaleFormat</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return typeof Date.prototype.toLocaleFormat === &apos;function&apos; }">test(
 function () { return typeof Date.prototype.toLocaleFormat === 'function' }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9434,8 +9250,6 @@ var brokenOnIE10 = !isNaN(Date.parse('2012-12-31T24:01:00.000Z'));
 var brokenOnChrome = !isNaN(Date.parse('2011-02-29T12:00:00.000Z'));
 return !brokenOnFirefox && !brokenOnIE10 && !brokenOnChrome;
   }())</script></td>
-<td class="yes obsolete" data-browser="konq4_13">Yes</td>
-<td class="yes" data-browser="konq4_14">Yes</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -9527,12 +9341,10 @@ return !brokenOnFirefox && !brokenOnIE10 && !brokenOnChrome;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Object.prototype.watch"><span><a class="anchor" href="#test-Object.prototype.watch">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch">Object.prototype.watch</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return typeof Object.prototype.watch === &apos;function&apos; }">test(
 function () { return typeof Object.prototype.watch === 'function' }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9626,8 +9438,6 @@ function () { return typeof Object.prototype.watch === 'function' }())</script><
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Object.prototype.unwatch"><span><a class="anchor" href="#test-Object.prototype.unwatch">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch">Object.prototype.unwatch</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return typeof Object.prototype.unwatch === &apos;function&apos; }">test(
 function () { return typeof Object.prototype.unwatch === 'function' }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9721,8 +9531,6 @@ function () { return typeof Object.prototype.unwatch === 'function' }())</script
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-Object.prototype.eval"><span><a class="anchor" href="#test-Object.prototype.eval">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/eval">Object.prototype.eval</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/eval" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () { return typeof Object.prototype.eval === &apos;function&apos; }">test(
 function () { return typeof Object.prototype.eval === 'function' }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -9818,8 +9626,6 @@ function () { return typeof Object.prototype.eval === 'function' }())</script></
 return typeof Object.observe === &apos;function&apos;;
   ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("95");try{return Function("asyncTestPassed","\nreturn typeof Object.observe === 'function';\n  ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("95");return Function("asyncTestPassed","'use strict';"+"\nreturn typeof Object.observe === 'function';\n  ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -9911,7 +9717,7 @@ return typeof Object.observe === &apos;function&apos;;
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="feature-category-" significance="1"><td id="test-error_stack"><span><a class="anchor" href="#test-error_stack">&#xA7;</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack">error &quot;stack&quot;</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span><script data-source="function () {
 try {
@@ -9927,8 +9733,6 @@ try {
   return 'stack' in err;
 }
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -10026,8 +9830,6 @@ return &apos;lineNumber&apos; in new Error();
 function () {
 return 'lineNumber' in new Error();
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -10125,8 +9927,6 @@ return &apos;columnNumber&apos; in new Error();
 function () {
 return 'columnNumber' in new Error();
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -10224,8 +10024,6 @@ return &apos;fileName&apos; in new Error();
 function () {
 return 'fileName' in new Error();
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="no obsolete" data-browser="ie8">No</td>
 <td class="no obsolete" data-browser="ie9">No</td>
 <td class="no obsolete" data-browser="ie10">No</td>
@@ -10323,8 +10121,6 @@ return &apos;description&apos; in new Error();
 function () {
 return 'description' in new Error();
   }())</script></td>
-<td class="no obsolete" data-browser="konq4_13">No</td>
-<td class="no" data-browser="konq4_14">No</td>
 <td class="yes obsolete" data-browser="ie8">Yes</td>
 <td class="yes obsolete" data-browser="ie9">Yes</td>
 <td class="yes obsolete" data-browser="ie10">Yes</td>
@@ -10416,11 +10212,9 @@ return 'description' in new Error();
 <td class="no" data-browser="opera_mobile64">No</td>
 <td class="no" data-browser="opera_mobile65">No</td>
 </tr>
-<tr><th colspan="95" class="separator"></th>
+<tr><th colspan="93" class="separator"></th>
 </tr>
 <tr class="supertest feature-category-" significance="1"><td id="test-global"><span><a class="anchor" href="#test-global">&#xA7;</a>global</span></td>
-<td class="tally obsolete" data-browser="konq4_13" data-tally="0">0/2</td>
-<td class="tally" data-browser="konq4_14" data-tally="0">0/2</td>
 <td class="tally obsolete" data-browser="ie8" data-tally="0">0/2</td>
 <td class="tally obsolete" data-browser="ie9" data-tally="0">0/2</td>
 <td class="tally obsolete" data-browser="ie10" data-tally="0">0/2</td>
@@ -10518,8 +10312,6 @@ actualGlobal.__system_global_test__ = 42;
 return typeof global === &apos;object&apos; &amp;&amp; global &amp;&amp; global === actualGlobal &amp;&amp; !global.lacksGlobal &amp;&amp; global.__system_global_test__ === 42;
     ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("102");try{return Function("asyncTestPassed","\nvar actualGlobal = Function('return this')();\nactualGlobal.__system_global_test__ = 42;\nreturn typeof global === 'object' && global && global === actualGlobal && !global.lacksGlobal && global.__system_global_test__ === 42;\n    ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("102");return Function("asyncTestPassed","'use strict';"+"\nvar actualGlobal = Function('return this')();\nactualGlobal.__system_global_test__ = 42;\nreturn typeof global === 'object' && global && global === actualGlobal && !global.lacksGlobal && global.__system_global_test__ === 42;\n    ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -10622,8 +10414,6 @@ var descriptor = Object.getOwnPropertyDescriptor(actualGlobal, &apos;global&apos
 return descriptor.value === actualGlobal &amp;&amp; !descriptor.enumerable &amp;&amp; descriptor.configurable &amp;&amp; descriptor.writable;
     ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("103");try{return Function("asyncTestPassed","\nvar actualGlobal = Function('return this')();\nif (typeof global !== 'object') { return false; }\nif (!('global' in actualGlobal)) { return false; }\nif (Object.prototype.propertyIsEnumerable.call(actualGlobal, 'global')) { return false; }\nif (typeof Object.getOwnPropertyDescriptor !== 'function') { return true; } // ES3\n\nvar descriptor = Object.getOwnPropertyDescriptor(actualGlobal, 'global');\nreturn descriptor.value === actualGlobal && !descriptor.enumerable && descriptor.configurable && descriptor.writable;\n    ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("103");return Function("asyncTestPassed","'use strict';"+"\nvar actualGlobal = Function('return this')();\nif (typeof global !== 'object') { return false; }\nif (!('global' in actualGlobal)) { return false; }\nif (Object.prototype.propertyIsEnumerable.call(actualGlobal, 'global')) { return false; }\nif (typeof Object.getOwnPropertyDescriptor !== 'function') { return true; } // ES3\n\nvar descriptor = Object.getOwnPropertyDescriptor(actualGlobal, 'global');\nreturn descriptor.value === actualGlobal && !descriptor.enumerable && descriptor.configurable && descriptor.writable;\n    ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -10724,8 +10514,6 @@ return [&apos;a&apos;,&apos;a&apos;,&apos;b&apos;,&apos;b&apos;];
 return Object.getOwnPropertyNames(P) + &apos;&apos; === &quot;a,a,b,b&quot;;
 ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("104");try{return Function("asyncTestPassed","\nvar P = new Proxy(Object.preventExtensions(Object.defineProperty({a:1}, \"b\", {value:1})), {\nownKeys: function() {\nreturn ['a','a','b','b'];\n}\n});\nreturn Object.getOwnPropertyNames(P) + '' === \"a,a,b,b\";\n")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("104");return Function("asyncTestPassed","'use strict';"+"\nvar P = new Proxy(Object.preventExtensions(Object.defineProperty({a:1}, \"b\", {value:1})), {\nownKeys: function() {\nreturn ['a','a','b','b'];\n}\n});\nreturn Object.getOwnPropertyNames(P) + '' === \"a,a,b,b\";\n")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="unknown obsolete" data-browser="konq4_13">?</td>
-<td class="unknown" data-browser="konq4_14">?</td>
 <td class="unknown obsolete" data-browser="ie8">?</td>
 <td class="unknown obsolete" data-browser="ie9">?</td>
 <td class="unknown obsolete" data-browser="ie10">?</td>
@@ -10821,7 +10609,7 @@ return Object.getOwnPropertyNames(P) + &apos;&apos; === &quot;a,a,b,b&quot;;
       </table>
       <div id="footnotes">
         <!-- FOOTNOTES -->
-      <p id="harmony-flag-old-note">  <sup>[1]</sup> Flagged features have to be enabled via <code>--harmony</code> flag</p><p id="harmony-flag-note">  <sup>[2]</sup> Flagged features have to be enabled via <code>--harmony</code> or <code>--es_staging</code> flag</p><p id="graalvm-node-mode-note">  <sup>[3]</sup> Executed in Node.js/JVM mode via <code>graalvm/bin/node --jvm</code>.</p><p id="khtml-note">  <sup>[4]</sup> Results are only applicable for the KHTML rendering engine.</p><p id="proxy-duplictate-ownkeys-updated-note">  <sup>[5]</sup> The behaviour of the Proxy &#x201C;ownKeys&#x201D; handler in presence of duplicate keys has been <a href="https://github.com/tc39/ecma262/issues/833">modified later</a>.</p></div>
+      <p id="khtml-note">  <sup>[1]</sup> Results are only applicable for the KHTML rendering engine.</p><p id="harmony-flag-old-note">  <sup>[2]</sup> Flagged features have to be enabled via <code>--harmony</code> flag</p><p id="harmony-flag-note">  <sup>[3]</sup> Flagged features have to be enabled via <code>--harmony</code> or <code>--es_staging</code> flag</p><p id="graalvm-node-mode-note">  <sup>[4]</sup> Executed in Node.js/JVM mode via <code>graalvm/bin/node --jvm</code>.</p><p id="proxy-duplictate-ownkeys-updated-note">  <sup>[5]</sup> The behaviour of the Proxy &#x201C;ownKeys&#x201D; handler in presence of duplicate keys has been <a href="https://github.com/tc39/ecma262/issues/833">modified later</a>.</p></div>
     </div>
     <pre class="info-tooltip" style="display:none"></pre>
   </body>

@@ -415,7 +415,7 @@ function dataToHtml(skeleton, rawBrowsers, tests, compiler) {
   // the very obsolete ones out.
   var browsers = Object.keys(rawBrowsers).reduce(function(obj,e) {
     var browser = rawBrowsers[e];
-    if (browser.obsolete !== "very" && browser.platformtype !== "engine" && browser.platformtype !== "compiler") {
+    if (browser.obsolete !== "very" && browser.platformtype !== "engine" && browser.platformtype !== "compiler" && browser.family !== "KJS") {
       obj[e] = browser;
     }
     // Even if it's very obsolete, include its footnote if it has one
