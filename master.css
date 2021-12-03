@@ -216,6 +216,15 @@ td:first-child, td:not([class]) {
     filter:none !important;
 }
 
+td:first-child {
+    background-color: rgb(161, 198, 212);
+}
+
+tr.feature-category-built-ins td:first-child,
+tr.feature-category-built-in-extensions td:first-child {
+    background-color: rgb(216, 187, 224);
+}
+
 /* yes */
 .yes,
 [data-tally="1"] {

@@ -46,6 +46,8 @@ var byTestSuite = function(suite) {
   };
 };
 
+var featureCategories = require('./data-feature-cateogires');
+
 // let prototypes declared below in this file be initialized
 process.nextTick(function () {
   var es5 = require('./data-es5');
@@ -413,7 +415,7 @@ function dataToHtml(skeleton, rawBrowsers, tests, compiler) {
   // the very obsolete ones out.
   var browsers = Object.keys(rawBrowsers).reduce(function(obj,e) {
     var browser = rawBrowsers[e];
-    if (browser.obsolete !== "very") {
+    if (browser.obsolete !== "very" && browser.platformtype !== "engine" && browser.platformtype !== "compiler") {
       obj[e] = browser;
     }
     // Even if it's very obsolete, include its footnote if it has one
@@ -508,8 +510,14 @@ function dataToHtml(skeleton, rawBrowsers, tests, compiler) {
       });
     }
 
+    function getFeatureCategory(t) {
+      const category = featureCategories[t.name] || t.category || '';
+      return category.replace(/[^a-zA-Z0-9]+/g, '-');
+    }
+
     var testRow = $('<tr></tr>')
       .addClass("subtests" in t ? 'supertest' : '')
+      .addClass(`feature-category-${getFeatureCategory(t)}`)
       .attr("significance",
         t.significance === "tiny" ? 0.125 :
         t.significance === "small" ? 0.25 :
