@@ -69,12 +69,20 @@ $(function() {
   var table = $('#table-wrapper');
   var currentBrowserSelector = ":nth-of-type(2)";
 
+  var setColSpan = function(sel, columns) {
+    if (columns === 0) {
+      $(sel).hide()
+    } else {
+      $(sel).show()
+      $(sel).prop('colSpan', columns);
+    }
+  }
   var setColSpans = function() {
-    $('#desktop-header' ).prop('colSpan', $('.platform.desktop:visible').length);
-    $('#compiler-header').prop('colSpan', $('.platform.compiler:visible').length);
-    $('#engine-header'  ).prop('colSpan', $('.platform.engine:visible').length);
-    $('#mobile-header'  ).prop('colSpan', $('.platform.mobile:visible').length);
-    $('tr.category>td'  ).prop('colSpan', $('tr.supertest:first>td:visible').length);
+    setColSpan('#desktop-header' , $('.platform.desktop:visible').length);
+    setColSpan('#compiler-header', $('.platform.compiler:visible').length);
+    setColSpan('#engine-header'  , $('.platform.engine:visible').length);
+    setColSpan('#mobile-header'  , $('.platform.mobile:visible').length);
+    setColSpan('tr.category>td'  , $('tr.supertest:first>td:visible').length);
   };
 
   /** Sticky header */
